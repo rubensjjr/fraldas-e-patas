@@ -120,8 +120,15 @@ const Footer = () => {
   );
 };
 
+interface TeamMemberProps {
+  name: string;
+  role: string;
+  image: string;
+  description: string;
+}
+
 // Componente para exibir um membro da equipe
-const TeamMember = ({ name, role, image, description }) => {
+const TeamMember = ({ name, role, image, description }: TeamMemberProps) => {
   return (
     <div className="flex flex-col items-center text-center">
       <div className="w-40 h-40 rounded-full overflow-hidden mb-4 border-4 border-primary-100">
@@ -140,8 +147,14 @@ const TeamMember = ({ name, role, image, description }) => {
   );
 };
 
+interface ValueCardProps {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+}
+
 // Componente para exibir um valor da empresa
-const ValueCard = ({ icon, title, description }) => {
+const ValueCard = ({ icon, title, description }: ValueCardProps) => {
   return (
     <div className="bg-white rounded-xl shadow-md p-6 transition-all duration-300 hover:shadow-lg hover:translate-y-[-5px]">
       <div className="text-primary-500 mb-4">{icon}</div>

@@ -121,7 +121,14 @@ const Footer = () => {
   );
 };
 
-const FAQItem = ({ question, answer, isOpen, toggleOpen }) => {
+interface FAQItemProps {
+  question: string;
+  answer: string;
+  isOpen: boolean;
+  toggleOpen: () => void;
+}
+
+const FAQItem = ({ question, answer, isOpen, toggleOpen }: FAQItemProps) => {
   return (
     <div className="border-b border-gray-200 py-6">
       <button 
@@ -150,10 +157,20 @@ const FAQItem = ({ question, answer, isOpen, toggleOpen }) => {
   );
 };
 
-const FAQCategory = ({ title, faqs }) => {
+interface FAQ {
+  question: string;
+  answer: string;
+}
+
+interface FAQCategoryProps {
+  title: string;
+  faqs: FAQ[];
+}
+
+const FAQCategory = ({ title, faqs }: FAQCategoryProps) => {
   const [openIndex, setOpenIndex] = useState(0);
 
-  const toggleFAQ = (index) => {
+  const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? -1 : index);
   };
 
@@ -161,7 +178,7 @@ const FAQCategory = ({ title, faqs }) => {
     <div className="mb-12">
       <h2 className="text-2xl font-heading font-bold text-gray-800 mb-6">{title}</h2>
       <div className="bg-white rounded-xl shadow-sm">
-        {faqs.map((faq, index) => (
+        {faqs.map((faq: FAQ, index: number) => (
           <FAQItem
             key={index}
             question={faq.question}

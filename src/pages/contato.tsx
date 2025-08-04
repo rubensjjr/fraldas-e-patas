@@ -122,13 +122,22 @@ const Footer = () => {
   );
 };
 
+interface ContactFormData {
+  name: string;
+  email: string;
+  phone: string;
+  subject: string;
+  message: string;
+  terms: boolean;
+}
+
 const ContactForm = () => {
-  const { register, handleSubmit, formState: { errors }, reset } = useForm();
+  const { register, handleSubmit, formState: { errors }, reset } = useForm<ContactFormData>();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [submitError, setSubmitError] = useState('');
 
-  const onSubmit = async (data) => {
+  const onSubmit = async (data: ContactFormData) => {
     setIsSubmitting(true);
     setSubmitSuccess(false);
     setSubmitError('');
