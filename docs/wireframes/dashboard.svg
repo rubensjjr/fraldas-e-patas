@@ -1,0 +1,208 @@
+<svg width="1200" height="2000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="2000" fill="#F5F7FA"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="80" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="50" y="50" font-family="Montserrat" font-size="24" font-weight="bold" fill="#3A86FF">Fraldas e Patas Assinatura</text>
+  
+  <!-- Navigation -->
+  <text x="600" y="50" font-family="Open Sans" font-size="16" fill="#4B5563">Início</text>
+  <text x="700" y="50" font-family="Open Sans" font-size="16" fill="#4B5563">Produtos</text>
+  <text x="800" y="50" font-family="Open Sans" font-size="16" fill="#4B5563">Como Funciona</text>
+  <text x="950" y="50" font-family="Open Sans" font-size="16" fill="#4B5563">Contato</text>
+  
+  <!-- User Account (Active) -->
+  <circle cx="1050" y="40" r="20" fill="#3A86FF"/>
+  <text x="1050" y="45" font-family="Open Sans" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">MS</text>
+  <text x="1090" y="45" font-family="Open Sans" font-size="14" font-weight="bold" fill="#1F2937">Minha Conta</text>
+  
+  <!-- Dashboard Layout -->
+  <rect x="50" y="120" width="250" height="1800" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <rect x="350" y="120" width="800" height="1800" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  
+  <!-- Sidebar -->
+  <text x="175" y="170" font-family="Montserrat" font-size="18" font-weight="bold" fill="#1F2937" text-anchor="middle">Meu Painel</text>
+  
+  <!-- User Info -->
+  <circle cx="175" y="230" r="40" fill="#3A86FF"/>
+  <text x="175" y="240" font-family="Montserrat" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">MS</text>
+  <text x="175" y="300" font-family="Montserrat" font-size="16" font-weight="bold" fill="#1F2937" text-anchor="middle">Maria Silva</text>
+  <text x="175" y="325" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle">maria.silva@email.com</text>
+  
+  <!-- Menu Items -->
+  <!-- Dashboard (Active) -->
+  <rect x="70" y="380" width="210" height="50" fill="#3A86FF" rx="5"/>
+  <text x="100" y="410" font-family="Open Sans" font-size="16" font-weight="bold" fill="#FFFFFF">Dashboard</text>
+  
+  <!-- My Subscriptions -->
+  <rect x="70" y="440" width="210" height="50" fill="#FFFFFF" rx="5"/>
+  <text x="100" y="470" font-family="Open Sans" font-size="16" fill="#4B5563">Minhas Assinaturas</text>
+  
+  <!-- Order History -->
+  <rect x="70" y="500" width="210" height="50" fill="#FFFFFF" rx="5"/>
+  <text x="100" y="530" font-family="Open Sans" font-size="16" fill="#4B5563">Histórico de Pedidos</text>
+  
+  <!-- Payment Methods -->
+  <rect x="70" y="560" width="210" height="50" fill="#FFFFFF" rx="5"/>
+  <text x="100" y="590" font-family="Open Sans" font-size="16" fill="#4B5563">Métodos de Pagamento</text>
+  
+  <!-- Delivery Addresses -->
+  <rect x="70" y="620" width="210" height="50" fill="#FFFFFF" rx="5"/>
+  <text x="100" y="650" font-family="Open Sans" font-size="16" fill="#4B5563">Endereços de Entrega</text>
+  
+  <!-- Account Settings -->
+  <rect x="70" y="680" width="210" height="50" fill="#FFFFFF" rx="5"/>
+  <text x="100" y="710" font-family="Open Sans" font-size="16" fill="#4B5563">Configurações da Conta</text>
+  
+  <!-- Support -->
+  <rect x="70" y="740" width="210" height="50" fill="#FFFFFF" rx="5"/>
+  <text x="100" y="770" font-family="Open Sans" font-size="16" fill="#4B5563">Suporte</text>
+  
+  <!-- Logout -->
+  <rect x="70" y="800" width="210" height="50" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="5"/>
+  <text x="100" y="830" font-family="Open Sans" font-size="16" fill="#FF4A4A">Sair</text>
+  
+  <!-- Main Content -->
+  <text x="380" y="170" font-family="Montserrat" font-size="24" font-weight="bold" fill="#1F2937">Dashboard</text>
+  <text x="380" y="200" font-family="Open Sans" font-size="16" fill="#4B5563">Bem-vinda, Maria! Aqui está o resumo da sua conta.</text>
+  
+  <!-- Next Delivery Card -->
+  <rect x="380" y="240" width="740" height="200" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="10"/>
+  <text x="420" y="280" font-family="Montserrat" font-size="18" font-weight="bold" fill="#1F2937">Próxima Entrega</text>
+  
+  <!-- Delivery Status -->
+  <rect x="420" y="300" width="660" height="100" fill="#F5F7FA" rx="5"/>
+  
+  <!-- Status Steps -->
+  <circle cx="480" cy="350" r="20" fill="#38B000"/>
+  <text x="480" y="355" font-family="Open Sans" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">✓</text>
+  <text x="480" y="390" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle">Processado</text>
+  
+  <circle cx="600" cy="350" r="20" fill="#38B000"/>
+  <text x="600" y="355" font-family="Open Sans" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">✓</text>
+  <text x="600" y="390" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle">Separado</text>
+  
+  <circle cx="720" cy="350" r="20" fill="#3A86FF"/>
+  <text x="720" y="355" font-family="Open Sans" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">•</text>
+  <text x="720" y="390" font-family="Open Sans" font-size="14" fill="#3A86FF" text-anchor="middle">Em Trânsito</text>
+  
+  <circle cx="840" cy="350" r="20" fill="#D1D5DB"/>
+  <text x="840" y="390" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle">Entregue</text>
+  
+  <!-- Status Lines -->
+  <line x1="500" y1="350" x2="580" y2="350" stroke="#38B000" stroke-width="2"/>
+  <line x1="620" y1="350" x2="700" y2="350" stroke="#38B000" stroke-width="2"/>
+  <line x1="740" y1="350" x2="820" y2="350" stroke="#D1D5DB" stroke-width="2"/>
+  
+  <!-- Delivery Date -->
+  <text x="1000" y="330" font-family="Montserrat" font-size="16" font-weight="bold" fill="#1F2937" text-anchor="end">Previsão de Entrega:</text>
+  <text x="1000" y="360" font-family="Open Sans" font-size="16" fill="#3A86FF" text-anchor="end">15/08/2023</text>
+  
+  <!-- Subscription Summary -->
+  <text x="380" y="480" font-family="Montserrat" font-size="18" font-weight="bold" fill="#1F2937">Resumo da Assinatura</text>
+  
+  <!-- Subscription Card -->
+  <rect x="380" y="500" width="740" height="300" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="10"/>
+  
+  <!-- Subscription Info -->
+  <text x="420" y="540" font-family="Montserrat" font-size="16" font-weight="bold" fill="#1F2937">Plano Mensal - Fraldas Geriátricas</text>
+  <text x="420" y="570" font-family="Open Sans" font-size="14" fill="#4B5563">Assinatura ativa desde: 10/05/2023</text>
+  <text x="420" y="600" font-family="Open Sans" font-size="14" fill="#4B5563">Próxima cobrança: 10/08/2023</text>
+  <text x="420" y="630" font-family="Open Sans" font-size="14" fill="#4B5563">Valor mensal: R$ 89,90</text>
+  
+  <!-- Subscription Products -->
+  <rect x="420" y="660" width="660" height="100" fill="#F5F7FA" rx="5"/>
+  <text x="440" y="690" font-family="Open Sans" font-size="14" font-weight="bold" fill="#1F2937">Produtos na assinatura:</text>
+  <text x="440" y="720" font-family="Open Sans" font-size="14" fill="#4B5563">1x Fralda Geriátrica M - Absorção Extra (30 unidades)</text>
+  
+  <!-- Subscription Actions -->
+  <rect x="600" y="780" width="120" height="40" rx="20" fill="#FFFFFF" stroke="#3A86FF" stroke-width="2"/>
+  <text x="660" y="805" font-family="Open Sans" font-size="14" font-weight="bold" fill="#3A86FF" text-anchor="middle">Alterar</text>
+  
+  <rect x="740" y="780" width="120" height="40" rx="20" fill="#FFFFFF" stroke="#FF85A1" stroke-width="2"/>
+  <text x="800" y="805" font-family="Open Sans" font-size="14" font-weight="bold" fill="#FF85A1" text-anchor="middle">Pausar</text>
+  
+  <rect x="880" y="780" width="120" height="40" rx="20" fill="#FFFFFF" stroke="#FF4A4A" stroke-width="2"/>
+  <text x="940" y="805" font-family="Open Sans" font-size="14" font-weight="bold" fill="#FF4A4A" text-anchor="middle">Cancelar</text>
+  
+  <!-- Recent Orders -->
+  <text x="380" y="850" font-family="Montserrat" font-size="18" font-weight="bold" fill="#1F2937">Pedidos Recentes</text>
+  
+  <!-- Orders Table -->
+  <rect x="380" y="880" width="740" height="50" fill="#F5F7FA" rx="5"/>
+  <text x="420" y="910" font-family="Open Sans" font-size="14" font-weight="bold" fill="#1F2937">Pedido</text>
+  <text x="550" y="910" font-family="Open Sans" font-size="14" font-weight="bold" fill="#1F2937">Data</text>
+  <text x="700" y="910" font-family="Open Sans" font-size="14" font-weight="bold" fill="#1F2937">Status</text>
+  <text x="850" y="910" font-family="Open Sans" font-size="14" font-weight="bold" fill="#1F2937">Valor</text>
+  <text x="1000" y="910" font-family="Open Sans" font-size="14" font-weight="bold" fill="#1F2937">Ações</text>
+  
+  <!-- Order 1 -->
+  <rect x="380" y="930" width="740" height="60" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="420" y="965" font-family="Open Sans" font-size="14" fill="#1F2937">#12345</text>
+  <text x="550" y="965" font-family="Open Sans" font-size="14" fill="#4B5563">10/07/2023</text>
+  <rect x="700" y="950" width="100" height="30" rx="15" fill="#38B000" opacity="0.2"/>
+  <text x="750" y="970" font-family="Open Sans" font-size="14" fill="#38B000" text-anchor="middle">Entregue</text>
+  <text x="850" y="965" font-family="Open Sans" font-size="14" fill="#4B5563">R$ 89,90</text>
+  <text x="1000" y="965" font-family="Open Sans" font-size="14" fill="#3A86FF">Detalhes</text>
+  
+  <!-- Order 2 -->
+  <rect x="380" y="990" width="740" height="60" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="420" y="1025" font-family="Open Sans" font-size="14" fill="#1F2937">#12289</text>
+  <text x="550" y="1025" font-family="Open Sans" font-size="14" fill="#4B5563">10/06/2023</text>
+  <rect x="700" y="1010" width="100" height="30" rx="15" fill="#38B000" opacity="0.2"/>
+  <text x="750" y="1030" font-family="Open Sans" font-size="14" fill="#38B000" text-anchor="middle">Entregue</text>
+  <text x="850" y="1025" font-family="Open Sans" font-size="14" fill="#4B5563">R$ 89,90</text>
+  <text x="1000" y="1025" font-family="Open Sans" font-size="14" fill="#3A86FF">Detalhes</text>
+  
+  <!-- Order 3 -->
+  <rect x="380" y="1050" width="740" height="60" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="420" y="1085" font-family="Open Sans" font-size="14" fill="#1F2937">#12156</text>
+  <text x="550" y="1085" font-family="Open Sans" font-size="14" fill="#4B5563">10/05/2023</text>
+  <rect x="700" y="1070" width="100" height="30" rx="15" fill="#38B000" opacity="0.2"/>
+  <text x="750" y="1090" font-family="Open Sans" font-size="14" fill="#38B000" text-anchor="middle">Entregue</text>
+  <text x="850" y="1085" font-family="Open Sans" font-size="14" fill="#4B5563">R$ 89,90</text>
+  <text x="1000" y="1085" font-family="Open Sans" font-size="14" fill="#3A86FF">Detalhes</text>
+  
+  <!-- View All Orders Button -->
+  <rect x="380" y="1130" width="200" height="40" rx="20" fill="#FFFFFF" stroke="#3A86FF" stroke-width="2"/>
+  <text x="480" y="1155" font-family="Open Sans" font-size="14" font-weight="bold" fill="#3A86FF" text-anchor="middle">Ver Todos os Pedidos</text>
+  
+  <!-- Support Section -->
+  <text x="380" y="1220" font-family="Montserrat" font-size="18" font-weight="bold" fill="#1F2937">Precisa de Ajuda?</text>
+  
+  <!-- Support Card -->
+  <rect x="380" y="1250" width="740" height="150" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="10"/>
+  <text x="420" y="1290" font-family="Open Sans" font-size="16" fill="#1F2937">Estamos aqui para ajudar! Entre em contato conosco:</text>
+  
+  <!-- WhatsApp Support -->
+  <rect x="420" y="1320" width="200" height="50" rx="25" fill="#38B000"/>
+  <text x="520" y="1350" font-family="Open Sans" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">WhatsApp</text>
+  
+  <!-- Email Support -->
+  <rect x="650" y="1320" width="200" height="50" rx="25" fill="#3A86FF"/>
+  <text x="750" y="1350" font-family="Open Sans" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">E-mail</text>
+  
+  <!-- Recommendations -->
+  <text x="380" y="1450" font-family="Montserrat" font-size="18" font-weight="bold" fill="#1F2937">Recomendações para Você</text>
+  
+  <!-- Recommendation Cards -->
+  <rect x="380" y="1480" width="230" height="280" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="10"/>
+  <rect x="400" y="1510" width="190" height="150" fill="#D1D5DB" rx="5"/>
+  <text x="495" y="1690" font-family="Montserrat" font-size="16" font-weight="bold" fill="#1F2937" text-anchor="middle">Tapetes Higiênicos</text>
+  <text x="495" y="1720" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle">A partir de R$ 59,90/mês</text>
+  
+  <rect x="635" y="1480" width="230" height="280" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="10"/>
+  <rect x="655" y="1510" width="190" height="150" fill="#D1D5DB" rx="5"/>
+  <text x="750" y="1690" font-family="Montserrat" font-size="16" font-weight="bold" fill="#1F2937" text-anchor="middle">Kit Economico</text>
+  <text x="750" y="1720" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle">A partir de R$ 149,90/mês</text>
+  
+  <rect x="890" y="1480" width="230" height="280" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="10"/>
+  <rect x="910" y="1510" width="190" height="150" fill="#D1D5DB" rx="5"/>
+  <text x="1005" y="1690" font-family="Montserrat" font-size="16" font-weight="bold" fill="#1F2937" text-anchor="middle">Absorventes</text>
+  <text x="1005" y="1720" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle">A partir de R$ 49,90/mês</text>
+  
+  <!-- View All Products Button -->
+  <rect x="380" y="1780" width="200" height="40" rx="20" fill="#FFFFFF" stroke="#3A86FF" stroke-width="2"/>
+  <text x="480" y="1805" font-family="Open Sans" font-size="14" font-weight="bold" fill="#3A86FF" text-anchor="middle">Ver Todos os Produtos</text>
+</svg>

@@ -1,0 +1,137 @@
+<svg width="1200" height="2000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="2000" fill="#F5F7FA"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="80" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="50" y="50" font-family="Montserrat" font-size="24" font-weight="bold" fill="#3A86FF">Fraldas e Patas Assinatura</text>
+  
+  <!-- Navigation -->
+  <text x="600" y="50" font-family="Open Sans" font-size="16" fill="#1F2937">Início</text>
+  <text x="700" y="50" font-family="Open Sans" font-size="16" fill="#4B5563">Produtos</text>
+  <text x="800" y="50" font-family="Open Sans" font-size="16" fill="#4B5563">Como Funciona</text>
+  <text x="950" y="50" font-family="Open Sans" font-size="16" fill="#4B5563">Contato</text>
+  
+  <!-- Login/Register Button -->
+  <rect x="1050" y="30" width="100" height="40" rx="20" fill="#3A86FF"/>
+  <text x="1100" y="55" font-family="Open Sans" font-size="14" fill="#FFFFFF" text-anchor="middle">Entrar</text>
+  
+  <!-- Hero Section -->
+  <rect x="0" y="80" width="1200" height="500" fill="#FFFFFF"/>
+  <rect x="50" y="130" width="500" height="400" fill="#D1D5DB" rx="10"/>
+  <text x="600" y="200" font-family="Montserrat" font-size="36" font-weight="bold" fill="#1F2937">Cuidado recorrente para quem você ama</text>
+  <text x="600" y="250" font-family="Open Sans" font-size="18" fill="#4B5563">Receba fraldas geriátricas e produtos para pets em casa, com economia e sem preocupações</text>
+  
+  <!-- CTA Button -->
+  <rect x="600" y="300" width="250" height="60" rx="30" fill="#38B000"/>
+  <text x="725" y="340" font-family="Open Sans" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle">Comece sua assinatura</text>
+  
+  <!-- Features Section -->
+  <text x="600" y="600" font-family="Montserrat" font-size="24" font-weight="bold" fill="#1F2937">Por que escolher nossa assinatura?</text>
+  
+  <!-- Feature 1 -->
+  <rect x="100" y="650" width="300" height="200" rx="10" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <circle cx="250" cy="700" r="30" fill="#3A86FF" opacity="0.2"/>
+  <text x="250" y="780" font-family="Montserrat" font-size="18" font-weight="600" fill="#1F2937" text-anchor="middle">Economia garantida</text>
+  <text x="250" y="810" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle">Até 25% de desconto em relação às compras avulsas</text>
+  
+  <!-- Feature 2 -->
+  <rect x="450" y="650" width="300" height="200" rx="10" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <circle cx="600" cy="700" r="30" fill="#38B000" opacity="0.2"/>
+  <text x="600" y="780" font-family="Montserrat" font-size="18" font-weight="600" fill="#1F2937" text-anchor="middle">Entrega pontual</text>
+  <text x="600" y="810" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle">Receba seus produtos sempre antes de acabar</text>
+  
+  <!-- Feature 3 -->
+  <rect x="800" y="650" width="300" height="200" rx="10" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <circle cx="950" cy="700" r="30" fill="#FFBE0B" opacity="0.2"/>
+  <text x="950" y="780" font-family="Montserrat" font-size="18" font-weight="600" fill="#1F2937" text-anchor="middle">Flexibilidade total</text>
+  <text x="950" y="810" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle">Altere, pause ou cancele quando quiser</text>
+  
+  <!-- Products Section -->
+  <text x="600" y="900" font-family="Montserrat" font-size="24" font-weight="bold" fill="#1F2937" text-anchor="middle">Nossos Produtos</text>
+  
+  <!-- Product Categories -->
+  <rect x="100" y="950" width="300" height="300" rx="10" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <rect x="150" y="980" width="200" height="150" fill="#D1D5DB" rx="5"/>
+  <text x="250" y="1160" font-family="Montserrat" font-size="18" font-weight="600" fill="#3A86FF" text-anchor="middle">Fraldas Geriátricas</text>
+  <text x="250" y="1190" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle">Para cuidadores de idosos</text>
+  
+  <rect x="450" y="950" width="300" height="300" rx="10" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <rect x="500" y="980" width="200" height="150" fill="#D1D5DB" rx="5"/>
+  <text x="600" y="1160" font-family="Montserrat" font-size="18" font-weight="600" fill="#FF85A1" text-anchor="middle">Absorventes</text>
+  <text x="600" y="1190" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle">Para necessidades específicas</text>
+  
+  <rect x="800" y="950" width="300" height="300" rx="10" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <rect x="850" y="980" width="200" height="150" fill="#D1D5DB" rx="5"/>
+  <text x="950" y="1160" font-family="Montserrat" font-size="18" font-weight="600" fill="#FFBE0B" text-anchor="middle">Tapetes Higiênicos</text>
+  <text x="950" y="1190" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle">Para tutores de pets</text>
+  
+  <!-- How It Works Section -->
+  <text x="600" y="1300" font-family="Montserrat" font-size="24" font-weight="bold" fill="#1F2937" text-anchor="middle">Como Funciona</text>
+  
+  <!-- Step 1 -->
+  <circle cx="200" cy="1380" r="40" fill="#3A86FF"/>
+  <text x="200" y="1390" font-family="Montserrat" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="200" y="1450" font-family="Montserrat" font-size="18" font-weight="600" fill="#1F2937" text-anchor="middle">Escolha seus produtos</text>
+  <text x="200" y="1480" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle" width="250">Selecione os itens, tamanhos e quantidades</text>
+  
+  <!-- Step 2 -->
+  <circle cx="400" cy="1380" r="40" fill="#3A86FF"/>
+  <text x="400" y="1390" font-family="Montserrat" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="400" y="1450" font-family="Montserrat" font-size="18" font-weight="600" fill="#1F2937" text-anchor="middle">Defina a frequência</text>
+  <text x="400" y="1480" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle" width="250">Mensal, trimestral, semestral ou anual</text>
+  
+  <!-- Step 3 -->
+  <circle cx="600" cy="1380" r="40" fill="#3A86FF"/>
+  <text x="600" y="1390" font-family="Montserrat" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="600" y="1450" font-family="Montserrat" font-size="18" font-weight="600" fill="#1F2937" text-anchor="middle">Pague com facilidade</text>
+  <text x="600" y="1480" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle" width="250">Cartão, boleto ou PIX recorrente</text>
+  
+  <!-- Step 4 -->
+  <circle cx="800" cy="1380" r="40" fill="#3A86FF"/>
+  <text x="800" y="1390" font-family="Montserrat" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="800" y="1450" font-family="Montserrat" font-size="18" font-weight="600" fill="#1F2937" text-anchor="middle">Receba em casa</text>
+  <text x="800" y="1480" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle" width="250">Entrega pontual e sem preocupações</text>
+  
+  <!-- Step 5 -->
+  <circle cx="1000" cy="1380" r="40" fill="#3A86FF"/>
+  <text x="1000" y="1390" font-family="Montserrat" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="1000" y="1450" font-family="Montserrat" font-size="18" font-weight="600" fill="#1F2937" text-anchor="middle">Gerencie online</text>
+  <text x="1000" y="1480" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle" width="250">Altere, pause ou cancele quando quiser</text>
+  
+  <!-- Testimonials Section -->
+  <text x="600" y="1550" font-family="Montserrat" font-size="24" font-weight="bold" fill="#1F2937" text-anchor="middle">O que dizem nossos clientes</text>
+  
+  <!-- Testimonial 1 -->
+  <rect x="200" y="1600" width="350" height="200" rx="10" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <circle cx="250" cy="1650" r="30" fill="#D1D5DB"/>
+  <text x="300" y="1650" font-family="Montserrat" font-size="16" font-weight="600" fill="#1F2937">Maria S.</text>
+  <text x="300" y="1670" font-family="Open Sans" font-size="14" fill="#4B5563">Cuidadora de idosos</text>
+  <text x="375" y="1720" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle" width="300">"Economizo tempo e dinheiro com a assinatura. As fraldas chegam sempre antes de acabar!"</text>
+  
+  <!-- Testimonial 2 -->
+  <rect x="650" y="1600" width="350" height="200" rx="10" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <circle cx="700" cy="1650" r="30" fill="#D1D5DB"/>
+  <text x="750" y="1650" font-family="Montserrat" font-size="16" font-weight="600" fill="#1F2937">Carlos P.</text>
+  <text x="750" y="1670" font-family="Open Sans" font-size="14" fill="#4B5563">Tutor de 3 cães</text>
+  <text x="825" y="1720" font-family="Open Sans" font-size="14" fill="#4B5563" text-anchor="middle" width="300">"Os tapetes higiênicos são de ótima qualidade e nunca mais precisei me preocupar em comprar."</text>
+  
+  <!-- Footer -->
+  <rect x="0" y="1850" width="1200" height="150" fill="#1F2937"/>
+  <text x="100" y="1900" font-family="Montserrat" font-size="18" font-weight="bold" fill="#FFFFFF">Fraldas e Patas Assinatura</text>
+  <text x="100" y="1930" font-family="Open Sans" font-size="14" fill="#D1D5DB">Cuidado recorrente para quem você ama</text>
+  
+  <text x="400" y="1900" font-family="Montserrat" font-size="16" font-weight="600" fill="#FFFFFF">Links Rápidos</text>
+  <text x="400" y="1930" font-family="Open Sans" font-size="14" fill="#D1D5DB">Produtos</text>
+  <text x="400" y="1960" font-family="Open Sans" font-size="14" fill="#D1D5DB">Como Funciona</text>
+  
+  <text x="600" y="1900" font-family="Montserrat" font-size="16" font-weight="600" fill="#FFFFFF">Suporte</text>
+  <text x="600" y="1930" font-family="Open Sans" font-size="14" fill="#D1D5DB">FAQ</text>
+  <text x="600" y="1960" font-family="Open Sans" font-size="14" fill="#D1D5DB">Contato</text>
+  
+  <text x="800" y="1900" font-family="Montserrat" font-size="16" font-weight="600" fill="#FFFFFF">Redes Sociais</text>
+  <text x="800" y="1930" font-family="Open Sans" font-size="14" fill="#D1D5DB">Instagram</text>
+  <text x="800" y="1960" font-family="Open Sans" font-size="14" fill="#D1D5DB">Facebook</text>
+  
+  <text x="600" y="2000" font-family="Open Sans" font-size="12" fill="#D1D5DB" text-anchor="middle">© 2023 Fraldas e Patas Assinatura. Todos os direitos reservados.</text>
+</svg>

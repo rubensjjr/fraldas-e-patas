@@ -1,0 +1,28 @@
+<svg width="300" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background (transparent) -->
+  <rect width="300" height="100" fill="none"/>
+  
+  <!-- Fralda Estilizada -->
+  <path d="M50,20 L80,20 C85,20 90,25 90,30 L90,70 C90,75 85,80 80,80 L50,80 C45,80 40,75 40,70 L40,30 C40,25 45,20 50,20 Z" fill="#3A86FF" stroke="#1F2937" stroke-width="2"/>
+  
+  <!-- Detalhes da Fralda -->
+  <line x1="50" y1="35" x2="80" y2="35" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="50" y1="50" x2="80" y2="50" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="50" y1="65" x2="80" y2="65" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Pata de Animal -->
+  <circle cx="120" cy="50" r="15" fill="#38B000"/>
+  <circle cx="110" cy="35" r="7" fill="#38B000"/>
+  <circle cx="130" cy="35" r="7" fill="#38B000"/>
+  <circle cx="105" cy="55" r="7" fill="#38B000"/>
+  <circle cx="135" cy="55" r="7" fill="#38B000"/>
+  
+  <!-- Texto "Fraldas e Patas" -->
+  <text x="155" y="45" font-family="Montserrat, sans-serif" font-size="22" font-weight="bold" fill="#1F2937">Fraldas e Patas</text>
+  
+  <!-- Texto "Assinatura" -->
+  <text x="155" y="70" font-family="Montserrat, sans-serif" font-size="18" font-weight="normal" fill="#3A86FF">Assinatura</text>
+  
+  <!-- Tagline -->
+  <text x="155" y="90" font-family="Open Sans, sans-serif" font-size="10" font-style="italic" fill="#4B5563">Cuidado recorrente para quem você ama</text>
+</svg>
